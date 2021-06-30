@@ -3,6 +3,7 @@
 * [Initial page](README.md)
 * [\_Incoming](_incoming/README.md)
   * [MIT Cheetah](_incoming/mit-cheetah.md)
+  * [rqt_bag crashes when displaying certain raw messages](_incoming/rqt-bag-crashes.md)
 * [Robots Projects](robots-projects/README.md)
   * [Stanford Pupper](robots-projects/stanford-pupper.md)
 * [Robot Courses](robot-courses-1/README.md)
