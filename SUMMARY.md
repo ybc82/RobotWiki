@@ -9,5 +9,5 @@
 * [Robot Courses](robot-courses-1/README.md)
   * [Biomechanics and Motor Control of Legged Locomotion](robot-courses-1/biomechanics-and-motor-control-of-legged-locomotion/README.md)
     * [Basic Observations about Legged Animals](robot-courses-1/biomechanics-and-motor-control-of-legged-locomotion/basic-observations-about-legged-animals.md)
-    * [Standing](robot-courses-1/biomechanics-and-motor-control-of-legged-locomotion/Standing.md)
+    * [Standing](robot-courses-1/biomechanics-and-motor-control-of-legged-locomotion/standing.md)
 
