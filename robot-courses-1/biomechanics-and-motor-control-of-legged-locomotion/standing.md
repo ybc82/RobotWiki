@@ -22,6 +22,8 @@ These terms are different:
 * COM: Center of mass
 * COG: The vertical projection of the COM onto the ground
 * COP: Center of Pressure. This represents the point location of the VERTICAL ground reaction force vector. Unless the system is static, it doesn't have to be the same as COG.
+*  Anteroposterior \(AP\): Front-to-back
+* Mediolateral \(M/L\): Side-toside
 
 And by modeling, we find out that the difference between the COP and COM is proportional to the horizontal acceleration of the COM. \(Inverted pendulum model\)
 
