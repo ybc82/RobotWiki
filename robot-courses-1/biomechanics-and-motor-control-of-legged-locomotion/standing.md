@@ -22,10 +22,16 @@ These terms are different:
 * COM: Center of mass
 * COG: The vertical projection of the COM onto the ground
 * COP: Center of Pressure. This represents the point location of the VERTICAL ground reaction force vector. Unless the system is static, it doesn't have to be the same as COG.
-*  Anteroposterior \(AP\): Front-to-back
+*  Anteroposterior \(A/P\): Front-to-back
 * Mediolateral \(M/L\): Side-toside
 
 And by modeling, we find out that the difference between the COP and COM is proportional to the horizontal acceleration of the COM. \(Inverted pendulum model\)
+
+The elderly and children have a larger amplitude and higher frequency content for COP signal. This reminds us of controllers with poor performance.
+
+\(COP-COM\), proportional to the horizontal acceleration of the body, can be viewed as the control output in this inverted pendulum model.
+
+Sensory systems. Conflicts of sensory systems cause confusion to human body. But if we take a closer look, different sensory systems trigger different actuators directly.
 
 ## _Capture Point: A Step toward Humanoid Push Recovery \*_
 
@@ -36,6 +42,7 @@ Thus, the Linear Inverted Pendulum Plus Flywheel Model looks like a LIPM plus a 
 When computing the Capture Point: 
 
 * Step I, calculate without controlling the flywheel, i.e. $$\tau_h = 0$$. Use Orbital Energy for analysis, which remains CONSTANT within one step. Orbital Energy of zero leads to a stable step. So, $$x_{capture}=\dot{x} \sqrt{\frac{z_0}{g}}$$. _When the flywheel is made available, this point will grow to Capture Region_. The optimal trajectory turns into an optimal region.
+* Step II, add items.
 
 Ground reaction forces are considered, and different from normal LIPM. Friction Cone is used to provide the condition for optimization.
 
