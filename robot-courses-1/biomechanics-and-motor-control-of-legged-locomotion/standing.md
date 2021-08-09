@@ -33,6 +33,10 @@ The elderly and children have a larger amplitude and higher frequency content fo
 
 Sensory systems. Conflicts of sensory systems cause confusion to human body. But if we take a closer look, different sensory systems trigger different actuators directly.
 
+"Thus it appears the CNS recognizes the need to stabilize the joint closest to perturbation first, followed by the knee, hip, and spine". -- local reflex.
+
+"The common denominator in the assessment of human balance and posture is the inverted pendulum model."
+
 ## _Capture Point: A Step toward Humanoid Push Recovery \*_
 
 Assumption: $$z \equiv z_0$$，at least within second order. Consider this as very motion in z-axis.
