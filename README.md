@@ -10,4 +10,4 @@ This site is designed to document courses, projects, and techniques related to r
 
 The style of this site is sort of like personal documents. But sharing it publicly should help the readers and also encourage me on better writing and formatting.
 
-Feel free to contact me at yubocheng@live.cn
+Feel free to contact me at [yubocheng@live.cn](mailto:yubocheng@live.cn)
