@@ -2,18 +2,18 @@
 
 ### Keywords
 
-Inverted Pendulum Model \(IPM\)   
-Ankle Strategy, COP, ZMP and Polygon of Support   
-Hip Strategy and Flywheel Extension   
-Stepping Strategy and Linear Inverted Pendulum Model \(LIPM\)   
-Capture Points in 2D  
+Inverted Pendulum Model (IPM) \
+Ankle Strategy, COP, ZMP and Polygon of Support \
+Hip Strategy and Flywheel Extension \
+Stepping Strategy and Linear Inverted Pendulum Model (LIPM) \
+Capture Points in 2D\
 Bilateral Leg Loading
 
 ## _Human balance and posture control during standing and walking_
 
 This is a review paper on human balance control. The purpose of this review is "to introduce the reader to the basic anatomy, mechanics, and neuromuscular control that is seen in the current literature related to balance control".
 
-This paper was written in 1995 \(Canada\), yet already considering problems in dealing with aging population.
+This paper was written in 1995 (Canada), yet already considering problems in dealing with aging population.
 
 ### Definitions
 
@@ -22,16 +22,20 @@ These terms are different:
 * COM: Center of mass
 * COG: The vertical projection of the COM onto the ground
 * COP: Center of Pressure. This represents the point location of the VERTICAL ground reaction force vector. Unless the system is static, it doesn't have to be the same as COG.
-*  Anteroposterior \(A/P\): Front-to-back
-* Mediolateral \(M/L\): Side-toside
+* &#x20;Anteroposterior (A/P): Front-to-back
+* Mediolateral (M/L): Side-toside
 
-And by modeling, we find out that the difference between the COP and COM is proportional to the horizontal acceleration of the COM. \(Inverted pendulum model\)
+And by modeling, we find out that the difference between the COP and COM is proportional to the horizontal acceleration of the COM. (Inverted pendulum model)
 
 The elderly and children have a larger amplitude and higher frequency content for COP signal. This reminds us of controllers with poor performance.
 
-\(COP-COM\), proportional to the horizontal acceleration of the body, can be viewed as the control output in this inverted pendulum model.
+(COP-COM), proportional to the horizontal acceleration of the body, can be viewed as the control output in this inverted pendulum model.
 
 Sensory systems. Conflicts of sensory systems cause confusion to human body. But if we take a closer look, different sensory systems trigger different actuators directly.
+
+"Thus it appears the CNS recognizes the need to stabilize the joint closest to perturbation first, followed by the knee, hip, and spine". -- local reflex.
+
+"The common denominator in the assessment of human balance and posture is the inverted pendulum model."
 
 ## _Capture Point: A Step toward Humanoid Push Recovery \*_
 
@@ -39,7 +43,7 @@ Assumption: $$z \equiv z_0$$，at least within second order. Consider this as ve
 
 Thus, the Linear Inverted Pendulum Plus Flywheel Model looks like a LIPM plus a joint servo model.
 
-When computing the Capture Point: 
+When computing the Capture Point:&#x20;
 
 * Step I, calculate without controlling the flywheel, i.e. $$\tau_h = 0$$. Use Orbital Energy for analysis, which remains CONSTANT within one step. Orbital Energy of zero leads to a stable step. So, $$x_{capture}=\dot{x} \sqrt{\frac{z_0}{g}}$$. _When the flywheel is made available, this point will grow to Capture Region_. The optimal trajectory turns into an optimal region.
 * Step II, add items.
@@ -49,6 +53,4 @@ Ground reaction forces are considered, and different from normal LIPM. Friction 
 Dimensional analysis: it simplifies the math and shows us the remaining parameters that are critical to the dynamics of the system.
 
 What we learned for biped design consideration: "Increasing the amount of available non-dimensional torque, or rotation angle, increases the size of the Capture Region. However, if one of the values is fixed, there is diminishing returns in increasing the other. In addition, the maximum torque must not exceed the the value that would cause slipping."
-
-
 
