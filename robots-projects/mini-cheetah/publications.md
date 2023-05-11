@@ -25,7 +25,8 @@ In typical gaits considered in this work, the robot completes one cycle in anywh
 
 Formulating the problem in MPC:
 
-*
+* In this implementation, Jacobian transpose force control $$\tau=J^T f$$ was used. This approximation is based on the facts that (1) legs are light (only 10% of the total mass) and (2) Jacobian force control can be accurate and high bandwidth.
+* Non-slip constraint is easily formulated $$\sqrt{f_x^2+f_y^2}<\mu f_z$$. Due to the transformation, force limit in cartesian space is complicated to describe, but a limit is provided.
 
 
 
@@ -39,7 +40,9 @@ Contact model described in \[3]
 
 \[20] Running on four legs as though they were one
 
-\[4] Patrick Wensing's state estimator that combines the IMU data with leg kinematics to determine the robot's position and velocity
+\[4] Patrick Wensing's state estimator that combines the IMU data with leg kinematics to determine the robot's position and velocity. And also the controller for foot trajectory tracking.
+
+\[19] the concept of capture point
 
 
 
