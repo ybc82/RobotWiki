@@ -27,8 +27,17 @@ Formulating the problem in MPC:
 
 * In this implementation, Jacobian transpose force control $$\tau=J^T f$$ was used. This approximation is based on the facts that (1) legs are light (only 10% of the total mass) and (2) Jacobian force control can be accurate and high bandwidth.
 * Non-slip constraint is easily formulated $$\sqrt{f_x^2+f_y^2}<\mu f_z$$. Due to the transformation, force limit in cartesian space is complicated to describe, but a limit is provided.
+* Remember we are using small pitch assumption for approximation
+* Because we consider ground reaction forces instead of joint torques, the predictive controller does not need to be aware of the configuration or the kinematics of the leg
+* In QP formulation, it is helpful to reduce the problem size and use a dense solver, rather than use sparse solver.
 
+Backflip:
 
+* The largest controls challenge of the somersault is to have the robot land at the correct angle, as the biped walking controller was very sensitive to disturbances in pitch. This robot (the 3D biped) used a simple heuristic controller which adjusted the tucking of the legs to modify the rotation rate so that it would land at the correct angle.
+* By planning ahead of time, the author can use accurate but computaionally-slow model which includes the full multi-body dynamics of the robot.
+* Since the leg mass is relatively low, its motion doesn't affect the flipping motion much - which is mostly determined by the pictching angle speed when robot leaves the ground.
+* In modeling, the front two legs are combined as one leg and the rear two legs are also combined as one leg. Ignore ab/ad. The robot is modeled as a 5 rigid bodies, not including 4 rotors.
+* Determined that a reasonable rotation flipping rate would be 600 deg/s from videos of small dogs doing flips...
 
 TODO:
 
@@ -43,6 +52,8 @@ Contact model described in \[3]
 \[4] Patrick Wensing's state estimator that combines the IMU data with leg kinematics to determine the robot's position and velocity. And also the controller for foot trajectory tracking.
 
 \[19] the concept of capture point
+
+\[14] flipping data
 
 
 
