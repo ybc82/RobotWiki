@@ -41,19 +41,19 @@ Backflip:
 
 TODO:
 
-The Dynamics algorithm is derived in \[9], and an alternative intuitive way is in Appendix A.
+The Dynamics algorithm is derived in \[9] - Textbook: Robot and Multibody Dynamics: Analysis and Algorithms. And an alternative intuitive way is in Appendix A.
 
 Contact model described in \[3]
 
-\[11] for hardware?
+\[11] for hardware. Thesis of Benjamin
 
-\[20] Running on four legs as though they were one
+\[20] Running on four legs as though they were one - Raibert controller
 
 \[4] Patrick Wensing's state estimator that combines the IMU data with leg kinematics to determine the robot's position and velocity. And also the controller for foot trajectory tracking.
 
-\[19] the concept of capture point
+**\[19] the concept of capture point. Capture Point: A Step toward Humanoid Push Recovery.**
 
-\[14] flipping data
+\[14] flipping data - Youtube video.
 
 
 
