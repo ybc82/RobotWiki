@@ -9,6 +9,7 @@
 * [Robots Projects](robots-projects/README.md)
   * [Mini Cheetah](robots-projects/mini-cheetah/README.md)
     * [Publications](robots-projects/mini-cheetah/publications.md)
+    * [State Estimation](robots-projects/mini-cheetah/state-estimation.md)
   * [LinuxCNC](robots-projects/linuxcnc.md)
   * [Stanford Pupper](robots-projects/stanford-pupper.md)
 * [Robot Courses](robot-courses-1/README.md)
