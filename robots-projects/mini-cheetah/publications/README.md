@@ -2,6 +2,8 @@
 
 ## Software and control design for the MIT Cheetah quadruped robots
 
+[Link](https://dspace.mit.edu/bitstream/handle/1721.1/129877/1237398778-MIT.pdf?sequence=1\&isAllowed=y)
+
 Behaviors: walk, run, and do a backflip
 
 Dynamics simulation: how to verify? 1. Total energy of the system was conserved. And important to measure how long time it takes to simulate a step forward.
