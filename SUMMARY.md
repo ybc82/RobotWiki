@@ -8,6 +8,7 @@
   * [rqt\_bag crashes when displaying certain raw messages](\_incoming/rqt-bag-crashes.md)
 * [Robots Projects](robots-projects/README.md)
   * [Mini Cheetah](robots-projects/mini-cheetah/README.md)
+    * [Bring-up Notes](robots-projects/mini-cheetah/bring-up-notes.md)
     * [Publications](robots-projects/mini-cheetah/publications/README.md)
       * [Contact Model Fusion for Event-Based Locomotion in Unstructured Terrains](robots-projects/mini-cheetah/publications/contact-model-fusion-for-event-based-locomotion-in-unstructured-terrains.md)
     * [State Estimation](robots-projects/mini-cheetah/state-estimation.md)
