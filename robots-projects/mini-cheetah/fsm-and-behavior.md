@@ -19,11 +19,17 @@ FSM:
 * Backflip - 9
 * Frontjump - 11
 * Joint PD - 51
-* Impedance control - 52
+* Impedance control - 5222k
 
-```mermaid
-stateDiagram;
+````mermaid
+stateDiagram```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
     Passive --> Joint PD;
     Passive --> Stand up;
     Passive --> Recovery stand;
-```
+````
