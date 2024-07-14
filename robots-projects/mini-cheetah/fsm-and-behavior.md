@@ -21,15 +21,9 @@ FSM:
 * Joint PD - 51
 * Impedance control - 5222k
 
-````mermaid
-stateDiagram```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+```mermaid
+stateDiagram
+    Passive --> JointPD
+    Passive --> StandUp
+    Passive --> RecoverySstand;
 ```
-    Passive --> Joint PD;
-    Passive --> Stand up;
-    Passive --> Recovery stand;
-````
