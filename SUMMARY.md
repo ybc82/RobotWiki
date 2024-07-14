@@ -12,6 +12,7 @@
     * [Publications](robots-projects/mini-cheetah/publications/README.md)
       * [Contact Model Fusion for Event-Based Locomotion in Unstructured Terrains](robots-projects/mini-cheetah/publications/contact-model-fusion-for-event-based-locomotion-in-unstructured-terrains.md)
     * [State Estimation](robots-projects/mini-cheetah/state-estimation.md)
+    * [FSM and behavior](robots-projects/mini-cheetah/fsm-and-behavior.md)
   * [LinuxCNC](robots-projects/linuxcnc.md)
   * [Stanford Pupper](robots-projects/stanford-pupper.md)
 * [Robot Courses](robot-courses-1/README.md)
