@@ -22,8 +22,8 @@ FSM:
 * Impedance control - 52
 
 ```mermaid
-stateDiagram
-    Passive --> Joint PD
-    Passive --> Stand up
-    Passive --> Recovery stand
+stateDiagram;
+    Passive --> Joint PD;
+    Passive --> Stand up;
+    Passive --> Recovery stand;
 ```
